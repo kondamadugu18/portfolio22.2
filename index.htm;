@@ -1,0 +1,618 @@
+
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Portfolio of Kondamadugu Narsimulu — AI/ML Engineer, Data Analyst and Python Developer." />
+  <meta property="og:title" content="Kondamadugu Narsimulu | AI/ML Engineer" />
+  <meta property="og:description" content="AI/ML, data analytics, Python and software development portfolio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/profile.jpg" />
+  <title>Kondamadugu Narsimulu | AI/ML Engineer | Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="brand"><span class="gradient-text">KN</span><span class="brand-name">Kondamadugu Narsimulu</span></a>
+      <div class="nav-links" id="nav-links">
+        
+          <a href="#home" class="nav-link" data-nav="home">home</a>
+        
+          <a href="#about" class="nav-link" data-nav="about">about</a>
+        
+          <a href="#skills" class="nav-link" data-nav="skills">skills</a>
+        
+          <a href="#projects" class="nav-link" data-nav="projects">projects</a>
+        
+          <a href="#experience" class="nav-link" data-nav="experience">experience</a>
+        
+          <a href="#education" class="nav-link" data-nav="education">education</a>
+        
+          <a href="#certifications" class="nav-link" data-nav="certifications">certifications</a>
+        
+          <a href="#hobbies" class="nav-link" data-nav="hobbies">hobbies</a>
+        
+          <a href="#resume" class="nav-link" data-nav="resume">resume</a>
+        
+          <a href="#contact" class="nav-link" data-nav="contact">contact</a>
+        
+      </div>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" type="button">
+          <svg id="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg id="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        </button>
+        <button id="mobile-toggle" class="icon-btn mobile-only" aria-label="Toggle navigation" type="button">
+          <svg id="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg id="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      
+        <a href="#home" class="mobile-link" data-nav-mobile="home">home</a>
+      
+        <a href="#about" class="mobile-link" data-nav-mobile="about">about</a>
+      
+        <a href="#skills" class="mobile-link" data-nav-mobile="skills">skills</a>
+      
+        <a href="#projects" class="mobile-link" data-nav-mobile="projects">projects</a>
+      
+        <a href="#experience" class="mobile-link" data-nav-mobile="experience">experience</a>
+      
+        <a href="#education" class="mobile-link" data-nav-mobile="education">education</a>
+      
+        <a href="#certifications" class="mobile-link" data-nav-mobile="certifications">certifications</a>
+      
+        <a href="#hobbies" class="mobile-link" data-nav-mobile="hobbies">hobbies</a>
+      
+        <a href="#resume" class="mobile-link" data-nav-mobile="resume">resume</a>
+      
+        <a href="#contact" class="mobile-link" data-nav-mobile="contact">contact</a>
+      
+    </div>
+  </header>
+
+  <main>
+
+    
+
+    <!-- HERO -->
+    <section id="home" class="section-anchor hero">
+      <div class="grid-bg"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="pill">Open to technology opportunities</span>
+          <h1 class="hero-title">Kondamadugu <span class="gradient-text">Narsimulu</span></h1>
+          <h2 class="hero-subtitle">AI/ML Engineer | Data Analyst | Python Developer</h2>
+          <p class="hero-desc">B.Tech graduate specializing in Information Technology (IT), passionate about AI/ML, data analytics, Python development, and building practical technology solutions.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">View Projects
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H9M17 7V15"/></svg>
+            </a>
+            <a href="files/resume.pdf" download class="btn-secondary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+              Download Resume
+            </a>
+            <a href="#contact" class="btn-secondary">Contact Me</a>
+          </div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/narsimulu-kondamadugu/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg><span class="sr-only">LinkedIn</span></a>
+            <a href="https://github.com/kondamadugu18/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg><span class="sr-only">GitHub</span></a>
+            <a href="https://leetcode.com/u/narsimluo1/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LeetCode"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4 3 12l6 8M15 4l6 8-6 8"/></svg><span class="sr-only">LeetCode</span></a>
+            <a href="mailto:kondamadugunarsimulu6@gmail.com" class="icon-link" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span class="sr-only">Email</span></a>
+          </div>
+        </div>
+        <div class="hero-card-wrap">
+          <div class="hero-card glass float-card">
+            <div class="hero-photo">
+              <img src="img/profile.jpg" alt="Professional portrait of Kondamadugu Narsimulu">
+            </div>
+            <div class="hero-focus-grid">
+              <div class="focus-chip"><p>Focus</p><span>AI/ML</span></div>
+              <div class="focus-chip"><p>Focus</p><span>Analytics</span></div>
+              <div class="focus-chip"><p>Focus</p><span>Python</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">About me</p>
+        <h2>Building practical skills with a problem-solving mindset</h2>
+      </div>
+      <div class="about-grid">
+        <div class="glass card">
+          <p>I am a B.Tech graduate specializing in Information Technology with strong interests in AI/ML, Data Analytics, Python development, and software development.</p>
+          <p>My technical experience includes Python, SQL, Excel, Power BI, machine learning, data analysis, and web technologies.</p>
+          <p>My career goal is to begin my professional career in a technology role where I can apply my technical, analytical, and problem-solving skills while continuously learning and contributing to real-world projects.</p>
+        </div>
+        <div class="glass card">
+          <h3>Career interests</h3>
+          <div class="chip-row">
+            <span class="chip">AI/ML Engineer</span>
+            <span class="chip">Data Analyst</span>
+            <span class="chip">Python Developer</span>
+            <span class="chip">Software Developer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Toolkit</p>
+        <h2>Technical skills</h2>
+      </div>
+      <div class="skills-grid">
+        
+          <div class="glass card skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+              <h3>Programming</h3>
+            </div>
+            <div class="chip-row">
+              <span class="chip chip-soft">Python</span><span class="chip chip-soft">Java</span><span class="chip chip-soft">JavaScript</span>
+            </div>
+          </div>
+        
+          <div class="glass card skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 11v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/></svg></div>
+              <h3>Data Analytics</h3>
+            </div>
+            <div class="chip-row">
+              <span class="chip chip-soft">SQL</span><span class="chip chip-soft">Excel</span><span class="chip chip-soft">Power BI</span><span class="chip chip-soft">Tableau</span><span class="chip chip-soft">Pandas</span><span class="chip chip-soft">NumPy</span>
+            </div>
+          </div>
+        
+          <div class="glass card skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.5A2.5 2.5 0 0 1 5 17.5v-1a2 2 0 0 1-1.5-3.5 2 2 0 0 1 .5-3.9A2.5 2.5 0 0 1 6 5.5 2.5 2.5 0 0 1 9.5 2ZM14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.5A2.5 2.5 0 0 0 19 17.5v-1a2 2 0 0 0 1.5-3.5 2 2 0 0 0-.5-3.9A2.5 2.5 0 0 0 18 5.5 2.5 2.5 0 0 0 14.5 2Z"/></svg></div>
+              <h3>AI/ML</h3>
+            </div>
+            <div class="chip-row">
+              <span class="chip chip-soft">Machine Learning</span><span class="chip chip-soft">Deep Learning</span><span class="chip chip-soft">Scikit-learn</span><span class="chip chip-soft">Data Cleaning</span><span class="chip chip-soft">Exploratory Data Analysis</span><span class="chip chip-soft">Feature Engineering</span>
+            </div>
+          </div>
+        
+          <div class="glass card skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/></svg></div>
+              <h3>Web Development</h3>
+            </div>
+            <div class="chip-row">
+              <span class="chip chip-soft">HTML</span><span class="chip chip-soft">CSS</span><span class="chip chip-soft">React</span><span class="chip chip-soft">Tailwind CSS</span><span class="chip chip-soft">Django</span><span class="chip chip-soft">Flask</span><span class="chip chip-soft">Node.js</span><span class="chip chip-soft">Express.js</span>
+            </div>
+          </div>
+        
+          <div class="glass card skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 11v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/></svg></div>
+              <h3>Databases &amp; Tools</h3>
+            </div>
+            <div class="chip-row">
+              <span class="chip chip-soft">MySQL</span><span class="chip chip-soft">SQLite</span><span class="chip chip-soft">MongoDB</span><span class="chip chip-soft">Git</span><span class="chip chip-soft">GitHub</span>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Selected work</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="filter-row" id="filter-row">
+        
+          <button class="filter-btn active" data-filter="All" type="button">All</button>
+        
+          <button class="filter-btn" data-filter="AI/ML" type="button">AI/ML</button>
+        
+          <button class="filter-btn" data-filter="Data Analytics" type="button">Data Analytics</button>
+        
+          <button class="filter-btn" data-filter="Python" type="button">Python</button>
+        
+          <button class="filter-btn" data-filter="Web Development" type="button">Web Development</button>
+        
+      </div>
+      <div class="projects-grid" id="projects-grid">
+        
+          <article class="glass card project-card" data-category="AI/ML">
+            <div class="tilt-card">
+              <div class="tilt-inner">
+                <div class="tilt-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+                <span class="tilt-label">AI / ML</span>
+                <p class="tilt-caption">Project visualization</p>
+              </div>
+            </div>
+            <div class="project-head">
+              <div>
+                <span class="chip chip-cyan">AI/ML</span>
+                <h3>AI-Based Tool for Preliminary Dermatological Diagnosis</h3>
+              </div>
+              <a href="https://github.com/kondamadugu18/AI-Based-Tool-for-Preliminary-Dermatological-Diagnosis" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub for AI-Based Tool for Preliminary Dermatological Diagnosis"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg></a>
+            </div>
+            <p class="project-desc">Developed an AI-powered dermatological diagnosis system for automated skin disease prediction.</p>
+            
+              <ul class="project-bullets">
+                <li>Achieved 92% prediction accuracy through machine learning model optimization and validation.</li><li>Implemented data preprocessing, image classification, feature extraction, and performance evaluation.</li><li>Built a responsive web application for real-time diagnosis support and tested model reliability.</li>
+              </ul>
+            
+            <div class="chip-row">
+              <span class="chip chip-tech">Python</span><span class="chip chip-tech">Machine Learning</span><span class="chip chip-tech">Deep Learning</span><span class="chip chip-tech">Data Preprocessing</span>
+            </div>
+            <a href="https://github.com/kondamadugu18/AI-Based-Tool-for-Preliminary-Dermatological-Diagnosis" target="_blank" rel="noopener noreferrer" class="btn-ghost">GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </article>
+        
+          <article class="glass card project-card" data-category="Data Analytics">
+            <div class="tilt-card">
+              <div class="tilt-inner">
+                <div class="tilt-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+                <span class="tilt-label">DATA</span>
+                <p class="tilt-caption">Project visualization</p>
+              </div>
+            </div>
+            <div class="project-head">
+              <div>
+                <span class="chip chip-cyan">Data Analytics</span>
+                <h3>Weather and Air Quality Monitoring &amp; Analysis System</h3>
+              </div>
+              <a href="https://github.com/kondamadugu18/weather-and-air-quality-monitering-analysis-system-" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub for Weather and Air Quality Monitoring &amp; Analysis System"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg></a>
+            </div>
+            <p class="project-desc">Designed a real-time environmental monitoring system integrating weather and air quality APIs.</p>
+            
+              <ul class="project-bullets">
+                <li>Created automated ETL pipelines for extraction, transformation, validation, and storage.</li><li>Analyzed environmental datasets to identify trends and generate actionable insights.</li><li>Developed interactive dashboards for weather and pollution metrics.</li>
+              </ul>
+            
+            <div class="chip-row">
+              <span class="chip chip-tech">Python</span><span class="chip chip-tech">APIs</span><span class="chip chip-tech">ETL</span><span class="chip chip-tech">Data Analysis</span><span class="chip chip-tech">Power BI</span>
+            </div>
+            <a href="https://github.com/kondamadugu18/weather-and-air-quality-monitering-analysis-system-" target="_blank" rel="noopener noreferrer" class="btn-ghost">GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </article>
+        
+          <article class="glass card project-card" data-category="Data Analytics">
+            <div class="tilt-card">
+              <div class="tilt-inner">
+                <div class="tilt-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+                <span class="tilt-label">BI</span>
+                <p class="tilt-caption">Project visualization</p>
+              </div>
+            </div>
+            <div class="project-head">
+              <div>
+                <span class="chip chip-cyan">Data Analytics</span>
+                <h3>Sales Data Analysis Dashboard</h3>
+              </div>
+              <a href="https://github.com/kondamadugu18/-Retail-sales-analytics-dashboard-MS-excel-" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub for Sales Data Analysis Dashboard"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg></a>
+            </div>
+            <p class="project-desc">Created an interactive sales analytics dashboard for sales performance, trends, KPIs, and business insights.</p>
+            
+            <div class="chip-row">
+              <span class="chip chip-tech">Power BI</span><span class="chip chip-tech">Excel</span><span class="chip chip-tech">Data Analysis</span>
+            </div>
+            <a href="https://github.com/kondamadugu18/-Retail-sales-analytics-dashboard-MS-excel-" target="_blank" rel="noopener noreferrer" class="btn-ghost">GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </article>
+        
+          <article class="glass card project-card" data-category="Python">
+            <div class="tilt-card">
+              <div class="tilt-inner">
+                <div class="tilt-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+                <span class="tilt-label">CRUD</span>
+                <p class="tilt-caption">Project visualization</p>
+              </div>
+            </div>
+            <div class="project-head">
+              <div>
+                <span class="chip chip-cyan">Python</span>
+                <h3>Student Management System</h3>
+              </div>
+              <a href="https://github.com/kondamadugu18/student-management-system" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub for Student Management System"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg></a>
+            </div>
+            <p class="project-desc">Developed a CRUD-based student management application for adding, updating, deleting, and managing student records.</p>
+            
+            <div class="chip-row">
+              <span class="chip chip-tech">Python</span><span class="chip chip-tech">SQLite</span>
+            </div>
+            <a href="https://github.com/kondamadugu18/student-management-system" target="_blank" rel="noopener noreferrer" class="btn-ghost">GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </article>
+        
+          <article class="glass card project-card" data-category="Web Development">
+            <div class="tilt-card">
+              <div class="tilt-inner">
+                <div class="tilt-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+                <span class="tilt-label">WEB</span>
+                <p class="tilt-caption">Project visualization</p>
+              </div>
+            </div>
+            <div class="project-head">
+              <div>
+                <span class="chip chip-cyan">Web Development</span>
+                <h3>E-Commerce Website</h3>
+              </div>
+              <a href="https://github.com/kondamadugu18/ECOMMERCE_FLASK_PROJECT-" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub for E-Commerce Website"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg></a>
+            </div>
+            <p class="project-desc">Built an e-commerce web application with product management and database functionality.</p>
+            
+            <div class="chip-row">
+              <span class="chip chip-tech">Python</span><span class="chip chip-tech">Flask</span><span class="chip chip-tech">SQLite</span><span class="chip chip-tech">HTML</span><span class="chip chip-tech">CSS</span>
+            </div>
+            <a href="https://github.com/kondamadugu18/ECOMMERCE_FLASK_PROJECT-" target="_blank" rel="noopener noreferrer" class="btn-ghost">GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </article>
+        
+          <article class="glass card project-card" data-category="Web Development">
+            <div class="tilt-card">
+              <div class="tilt-inner">
+                <div class="tilt-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg></div>
+                <span class="tilt-label">JS</span>
+                <p class="tilt-caption">Project visualization</p>
+              </div>
+            </div>
+            <div class="project-head">
+              <div>
+                <span class="chip chip-cyan">Web Development</span>
+                <h3>Calculator Application</h3>
+              </div>
+              <a href="https://github.com/kondamadugu18/Calculator" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub for Calculator Application"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg></a>
+            </div>
+            <p class="project-desc">Developed a responsive calculator application with a clean and user-friendly interface.</p>
+            
+            <div class="chip-row">
+              <span class="chip chip-tech">HTML</span><span class="chip chip-tech">CSS</span><span class="chip chip-tech">JavaScript</span>
+            </div>
+            <a href="https://github.com/kondamadugu18/Calculator" target="_blank" rel="noopener noreferrer" class="btn-ghost">GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </article>
+        
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Experience</p>
+        <h2>Part-time tutoring &amp; data analysis learning</h2>
+      </div>
+      <div class="two-col">
+        <div class="glass card">
+          <div class="card-head-icon">
+            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <div>
+              <h3>Data Analysis Internship</h3>
+              <p class="muted">Details intentionally limited to the information provided.</p>
+            </div>
+          </div>
+          <ul class="check-list">
+            <li>✓ Data analysis</li>
+            <li>✓ Python</li>
+            <li>✓ SQL</li>
+            <li>✓ Excel</li>
+            <li>✓ Power BI</li>
+            <li>✓ Data cleaning</li>
+            <li>✓ Dashboard creation</li>
+            <li>✓ Business insights</li>
+          </ul>
+        </div>
+        <div class="glass card">
+          <div class="card-head-icon">
+            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.1 2.69 2 6 2s6-.9 6-2v-5"/></svg></div>
+            <div>
+              <h3>Part-time Tutor</h3>
+              <p class="muted">Since 2024 · Up to Class 10</p>
+            </div>
+          </div>
+          <p class="leading">Teaching helps me improve my knowledge, patience, communication, confidence, understanding, and problem-solving skills. It also helps me explain concepts clearly, understand students better, manage different situations, and develop a responsible and positive attitude.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Education</p>
+        <h2>Academic background</h2>
+      </div>
+      <div class="edu-list">
+        
+          <div class="glass card edu-row">
+            <div>
+              <h3>B.Tech – Information Technology</h3>
+              <p class="muted">St. Martin&#x27;s Engineering College, Hyderabad</p>
+            </div>
+            <div class="edu-meta">
+              <p class="edu-batch">2022 – 2026</p>
+              <p class="muted">CGPA: 8.12</p>
+            </div>
+          </div>
+        
+          <div class="glass card edu-row">
+            <div>
+              <h3>Intermediate – MPC (Mathematics, Physics, Chemistry)</h3>
+              <p class="muted">Sri Aryabhatta Junior College, Kamareddy</p>
+            </div>
+            <div class="edu-meta">
+              <p class="edu-batch">2020 – 2022</p>
+              <p class="muted">Percentage: 72.5</p>
+            </div>
+          </div>
+        
+          <div class="glass card edu-row">
+            <div>
+              <h3>SSC – Secondary School of Certificate</h3>
+              <p class="muted">Zilla Parshad High School, Hyderabad</p>
+            </div>
+            <div class="edu-meta">
+              <p class="edu-batch">2019 – 2020</p>
+              <p class="muted">CGPA: 10.00</p>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Certifications</p>
+        <h2>Continuous learning</h2>
+      </div>
+      <div class="cert-grid">
+        
+          <div class="glass card cert-card">
+            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div>
+            <span>NPTEL Online Certification - Python Programming</span>
+          </div>
+        
+          <div class="glass card cert-card">
+            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div>
+            <span>Google Data Analytics Professional Certificate</span>
+          </div>
+        
+          <div class="glass card cert-card">
+            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div>
+            <span>Microsoft Power BI Data Analyst Certification</span>
+          </div>
+        
+          <div class="glass card cert-card">
+            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div>
+            <span>Data Cleaning and Data Preparation using Python</span>
+          </div>
+        
+      </div>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Beyond work</p>
+        <h2>Hobbies &amp; interests</h2>
+      </div>
+      <div class="hobbies-grid">
+        
+          <div class="glass card">
+            <div class="hobby-icon">🏏</div>
+            <h3>Playing Cricket</h3>
+            <p class="muted">I love cricket for teamwork, strategy, discipline, fitness, and the excitement of competition.</p>
+          </div>
+        
+          <div class="glass card">
+            <div class="hobby-icon">🏃</div>
+            <h3>Running</h3>
+            <p class="muted">I enjoy running because it keeps me active, focused, disciplined, refreshed, and mentally resilient.</p>
+          </div>
+        
+          <div class="glass card">
+            <div class="hobby-icon">🌐</div>
+            <h3>Browsing Internet</h3>
+            <p class="muted">I enjoy browsing the internet to explore technology, learn new ideas, and stay curious.</p>
+          </div>
+        
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Resume</p>
+        <h2>A recruiter-ready overview</h2>
+      </div>
+      <div class="glass card resume-card">
+        <h3>View my qualifications and project background</h3>
+        <p class="leading">Please use the buttons below to view or download the current resume PDF.</p>
+        <div class="hero-buttons">
+          <a href="files/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary">View Resume
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+          <a href="files/resume.pdf" download class="btn-secondary">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-anchor section">
+      <div class="section-head">
+        <p class="kicker">Contact</p>
+        <h2>Let's connect</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="glass card">
+          <h3>Contact details</h3>
+          <div class="contact-rows">
+            <a class="contact-row" href="mailto:kondamadugunarsimulu6@gmail.com"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> kondamadugunarsimulu6@gmail.com</a>
+            <a class="contact-row" href="tel:+919014995802"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92Z"/></svg> +91 9014995802</a>
+            <a class="contact-row" href="https://www.linkedin.com/in/narsimulu-kondamadugu/" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg> LinkedIn</a>
+            <a class="contact-row" href="https://github.com/kondamadugu18/" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg> GitHub</a>
+            <a class="contact-row" href="https://leetcode.com/u/narsimluo1/" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4 3 12l6 8M15 4l6 8-6 8"/></svg> LeetCode</a>
+          </div>
+        </div>
+        <form class="glass card contact-form" method="post" name="contact" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="sr-only"><label>Don’t fill this out: <input name="bot-field"></label></p>
+          <div class="form-grid">
+            <label class="field">Name<input required name="name" placeholder="Your name"></label>
+            <label class="field">Email<input required type="email" name="email" placeholder="you@example.com"></label>
+            <label class="field field-full">Subject<input required name="subject" placeholder="How can I help?"></label>
+            <label class="field field-full">Message<textarea required name="message" rows="6" placeholder="Your message"></textarea></label>
+          </div>
+          <button class="btn-primary" type="submit">Send Message
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H9M17 7V15"/></svg>
+          </button>
+          <p class="form-note">Messages sent here go straight to my inbox via Netlify Forms.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-name">Kondamadugu Narsimulu</p>
+        <p class="muted">AI/ML Engineer | Data Analyst | Python Developer</p>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/kondamadugu18/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.08.78 2.17v3.21c0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg></a>
+        <a href="https://www.linkedin.com/in/narsimulu-kondamadugu/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg></a>
+        <a href="https://leetcode.com/u/narsimluo1/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LeetCode"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4 3 12l6 8M15 4l6 8-6 8"/></svg></a>
+        <a href="mailto:kondamadugunarsimulu6@gmail.com" class="icon-link" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+      </div>
+      <p class="muted footer-copy">© 2026 Kondamadugu Narsimulu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="scroll-top" aria-label="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
